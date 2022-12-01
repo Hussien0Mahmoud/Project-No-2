@@ -1,0 +1,343 @@
+
+.home .nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: #fff;
+    width: 100%;
+    
+
+}
+.home .nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row-reverse;
+    margin-top: 0px;
+   
+}
+.home .nav ul li{
+padding: 10px 15px;
+font-family:Arial, Helvetica, sans-serif
+
+}
+.home .nav ul li a {
+    text-decoration: none;
+    color:gray;
+    font-size: 15px;
+    font-weight: bold;
+}
+.home .nav ul li a:hover {
+    color:#40A8CB;
+
+}
+.home .nav ul li  .nav-getstart {
+    border: 1px solid gray;
+    padding:10px 20px;
+    font-weight: normal;
+}
+.home .nav ul li  .nav-getstart:hover{
+    background-color:#40A8CB;
+    color: aliceblue;
+}
+.home .nav ul li .nav-main {
+    color:#40A8CB;
+}
+.home .nav .nav-logo {
+    font-size: 35px;
+    font-weight: bold;
+    color: gray;
+    margin: 15px 100px;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+}
+    /*  end nav bar  */
+
+    /*start of section one   */
+.home .sec1 {
+    display: flex;
+    text-align: right;
+    font-family:Arial, Helvetica, sans-serif;
+   padding-top: 50px;
+}
+
+.home .sec1 .sec1p1 {
+    width: 50%;
+    padding: 80px 80px 0 0;
+}
+.home .sec1 .sec1p2 {
+    width: 50%;
+    padding: 50px 100px 0 0;
+    
+}
+.home .sec1 .sec1p2 h1 {
+    color: #434343;
+    font-size: 45px;
+    font-weight: bold;
+}
+.home .sec1 .sec1p2 p {
+    color: #666666;
+    font-size: 23px;
+    word-spacing: 5px;
+    padding-left: 100px; 
+}
+.home .sec1 .sec1p2 button {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 8px 25px;
+    border-radius: 3px ;
+    border-color: transparent;
+    background-color: #40A8CB;
+    color: white;
+    box-shadow: 0 10px 10px 0 #83aab7;
+}
+.home .sec1 .sec1p2 button:hover {
+    background-color: #5959F8;
+}
+/* end of section one   */
+/*  start of section two  */
+.home .sec2 {
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    margin-top: 200px;
+
+}
+.home .sec2 .sec2left {
+    background-color: #F5F5F5;
+    width:40%;
+    margin-right: 10px;
+    padding: 0 30px 60px;
+}
+.home .sec2 .sec2right {
+    background-color: #F5F5F5;
+    width:40%;
+    margin-right: 70px;
+    padding: 0 30px 60px;
+}
+.home .sec2 .sec2left p,.sec2right p {
+    color: #666666;
+}
+/*   end of section 2    */
+
+/* start of section 3   */
+.home .sec3 {
+    margin-top: 90px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    color: #7F7F7F;
+}
+.home .sec3 .sec3left {
+    width: 42%;
+    margin-right: 0;
+
+}
+.home .sec3 .sec3left p {
+    font-size : 17.5px;
+    font-weight:lighter;
+    color: #7F7F7F;
+}
+.home .sec3 .sec3right{
+    width: 42%;
+    padding-right: 80px;
+    margin-right: 50px;
+}
+.home .sec3 .sec3right img {
+    width : 500px;
+    height: 500px;
+
+}
+/* start of section 4  */
+.home .sec4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    background-color: #F5F5F5;
+    text-align: center;
+    color: #626262;
+    padding-top: 50px;
+}
+.home .sec4 .sec4p1,.sec4p2,.sec4p3,.sec4p4 {
+    width: 30%;
+    background-color: #fff;
+}
+.home .sec4 .sec4p4 {
+    margin-top: 15px;
+}
+.home .sec4 h2 {
+    color: #2E83A0;
+}
+.home .sec4 h1:hover {
+    color: #2E83A0;
+}
+.befor-sec4 {
+    margin-top: 50px;
+    height: 100px;
+    background-color: #F5F5F5;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+.befor-sec4 #g {
+    color: #d9d8d8;
+    margin-bottom: -40px;
+    font-size:30px;
+}
+
+/*      end of section 4  */ 
+.home .after-sec6{
+    margin-top: 0;
+    padding-bottom: 50px;
+}
+/*      end of section 6  */ 
+
+/*      start of section 8  */ 
+.home .after-sec7{
+   background-color: #fff;
+    padding-bottom: 50px;
+    margin-top: 0;
+}
+
+/*endddddddddddd */
+
+/* start of section mapppp */
+.contactUs {
+    width: 100%;
+    
+    display: flex;
+    margin-top: 20px;
+}
+/* section form   */
+.contactUs .form {
+    width: 60%;
+    height: 750px;
+    border-top: 3px solid rgb(51, 134, 162);
+    border-bottom: 3px solid rgb(51, 134, 162);
+    margin: 20px 20px 20px 100px;
+    padding: 30px 30px;
+    background-color: rgba(0, 0, 0, .04);
+    text-align: right;
+}
+.contactUs .form .name {
+    width: 48%;
+    float: right;
+    
+}
+.contactUs .form .mail {
+    width: 48%;
+    
+}
+.contactUs .form .topic {
+    margin: 30px 0px;
+}
+
+
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 6px;
+    border-color:rgba(0, 0, 0, .1);
+    display: inline;
+}
+.form textarea{
+    border-radius: 6px;
+    width: 100%;
+    border-color:rgba(0, 0, 0, .1);
+    padding-top:15px ;
+}
+button {
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: rgb(64, 168, 203);
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    margin-top: 23px;
+    margin-right: 95px;
+    box-shadow: 6px 6px 5px lightblue;
+}
+.b{  
+    text-align: center;
+}
+
+/*   section map    */
+.contactUs .map-parent {
+    width: 40%;
+    height: 790px;
+    border-top: 3px solid rgb(51, 134, 162);
+    border-bottom: 3px solid rgb(51, 134, 162);
+    margin: 20px 100px 20px 20px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .04);
+}
+.contactUs .map-parent .box1 {
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    padding: 10px;
+}
+.box1 h1{
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(99, 98, 98);
+    
+    }
+    .box1 p{
+        color: rgba(0, 0, 0, .4);
+    }
+    .box1 i{
+    font-size: 20px;
+    }
+    iframe{
+        padding-top: 20px;
+    }
+
+    /*   end of contaaaaact  */
+
+    /*  start of footer   */ 
+    .footer {
+        width: 100%;
+        background-color: #f5f5f5;
+        margin-top: 30px;
+        text-align: center;
+        
+    }
+    .footer h1 {
+        padding-top: 100px;
+        color: #525151;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 40px;
+
+    }
+.footer i {
+    color: #2E83A0;
+    font-size: 28px;
+    padding: 0 10px;
+}
+.footer hr {
+    margin: 100px auto 40px;
+    width:80%;
+    color: rgba(0, 0, 0, 0.1);
+}
+.footer .paragraph {
+    display: flex;
+    justify-content: space-between;
+}
+.footer .paragraph .p1 {
+    text-align: left;
+    color: rgb(99, 98, 98);
+}
+.footer .paragraph .p1 b {
+    font-size: bold;
+    color: black;
+
+}
+.footer .paragraph .p2 {
+    text-align: right;
+    color: rgb(99, 98, 98);
+
+}
+.footer .paragraph .p2 a {
+    color: green;
+    text-decoration: none;
+}
